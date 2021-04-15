@@ -23,6 +23,8 @@ This app is not created, maintained or related to **Easynvest - Título Corretor
 8.  On `index.js` replace value after `endDate` with the type of report
     1.  'statement' for 'Extrato'
     2.  'summary' for 'Resumo de negociação'
+9.  Run `node index.js`
+10. See the output inside the dist/ folder
 
 ## How to find my Bearer token?
 
