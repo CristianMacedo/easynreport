@@ -9,18 +9,18 @@ This app is not created, maintained or related to **Easynvest - Título Corretor
 ## Pre-requisites
 
 -   Node.js (Version 10+)
--   NPM(Comes with Node.js by default) or Yarn
+-   NPM (Comes with Node.js by default) or Yarn
 
 ## How to use
 
 1.  Clone or Download this repo
 2.  Open terminal and navigate to the folder
-3.  Install the dependencies `npm install` or `yarn install`
+3.  Install the dependencies with `npm install` or `yarn install`
 4.  Rename the `example.env` file to `.env`
 5.  On `.env` Replace `REPLACE_WITH_YOUR_TOKEN` with your token (duuh...) (See [How to find my Bearer token?](#how-to-find-my-bearer-token))
 6.  On `index.js` replace value after `startDate` with the start date for the report on the following format YYYY-MM-DD, e.g. 2020-01-25.
 7.  On `index.js` replace value after `endDate` with the end date for the report on the following format YYYY-MM-DD, e.g. 2020-01-25.
-8.  On `index.js` replace value after `endDate` with the type of report
+8.  On `index.js` replace value after `type` with the type of report
     1.  'statement' for 'Extrato'
     2.  'summary' for 'Resumo de negociação'
 9.  Run `node index.js`
@@ -44,6 +44,6 @@ _Please do not share/save this token anywhere, as this can represent a security 
 
 ## About
 
-I decided to create this app due to the fact that I had to create reports for periods longer than what the current Easynvest API allows. No financial proffit intended (Feel free to donate, tho)
+I decided to create this app due to the fact that I had to create reports for periods longer than what the current Easynvest API allows. No financial profit intended (Feel free to donate, tho)
 
 Feel free to create issues or pull requests, or reach me out for any suggestions, help or bug report.
