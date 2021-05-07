@@ -2,9 +2,7 @@
 
 A Node.js app to Crawl Easynvest API and a gather more than the limit of 90 days, by combining multiple consults in a single file.
 
-## Disclaimer
-
-This app is not created, maintained or related to **Easynvest - Título Corretora de Valores SA (CNPJ: 62.169.875/0001-79)** in any means. If you work at Easynvest and have any problems with this app, please reach me out (Contact info on my Github profile or [cristianmacedo.com](https://cristianmacedo.com)).
+> **Disclaimer:** _This app is not created, maintained or related to **Easynvest - Título Corretora de Valores SA (CNPJ: 62.169.875/0001-79)** in any means. If you work at Easynvest and have any problems with this app, please reach me out (Contact info on my Github profile or [cristianmacedo.com](https://cristianmacedo.com))._
 
 ## Pre-requisites
 
@@ -30,7 +28,7 @@ This app is not created, maintained or related to **Easynvest - Título Corretor
 
 _This Token is responsible of giving the application access to the data of your account, we do not store any personal info or token, the app runs 100% locally, only making requests to gather the necessary data to create reports._
 
-_Please do not share/save this token anywhere, as this can represent a security issue to your account._
+_Please DO NOT share this token with anyone, as this can represent a security issue to your account._
 
 1. Access your Easynvest account homepage through your browser of preference
 2. Open developer tools
